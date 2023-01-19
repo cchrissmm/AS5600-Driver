@@ -199,7 +199,7 @@ public:
 
   //  BURN COMMANDS
   //  DO NOT UNCOMMENT - USE AT OWN RISK - READ DATASHEET
-  //  void burnAngle();
+  void burnAngle();
   //  void burnSetting();
 
 
