@@ -406,7 +406,7 @@ bool AS5600::magnetTooWeak()
 //
   void AS5600::burnAngle()
   {
-   writeReg(AS5600_BURN, x0x80);
+   writeReg(AS5600_BURN, 0x80);
   }
 //
 //
