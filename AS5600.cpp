@@ -404,10 +404,10 @@ bool AS5600::magnetTooWeak()
 //
 //  DO NOT UNCOMMENT - USE AT OWN RISK - READ DATASHEET
 //
-//  void AS5600::burnAngle()
-//  {
-//    writeReg(AS5600_BURN, x0x80);
-//  }
+  void AS5600::burnAngle()
+  {
+   writeReg(AS5600_BURN, x0x80);
+  }
 //
 //
 //  void AS5600::burnSetting()
